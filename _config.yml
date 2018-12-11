@@ -61,7 +61,8 @@ permalink: /:year/:month/:title
 
 # Build settings
 markdown: kramdown
-theme: jekyll-clean-dark
+# theme: jekyll-clean-dark
+remote_theme: jekyll-clean-dark
 plugins:
   - jekyll-feed
 
