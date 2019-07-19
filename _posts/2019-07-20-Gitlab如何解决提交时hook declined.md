@@ -12,8 +12,9 @@ tags: git
     
 ## 只修改项目配置文件
 修改当前仓库.git/config
+````
     [user]
     name = lisi4
     email = lisi4@vipkid.com.cn
-
+````
 ## 修改完成后，一定要再做一次“非空commit”，然后再push!!!
