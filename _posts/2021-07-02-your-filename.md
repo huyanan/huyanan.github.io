@@ -1,0 +1,61 @@
+---
+published: false
+---
+Jekyll 最通常的文章发布是通过本地生成再通过 Git 提交到 Github，但是这很麻烦，你总不能到哪里都安装一遍 Jekyll 和一大堆的依赖吧。这对于极客来说不是什么事，但对于一般人来说，这是致命问题。
+
+下面几个工具，就是为了解决 Jekyll 文章发布问题，可以说对于普通用户使用 Jekyll 已经没有什么大的问题了。
+
+[Prose](http://prose.io/)
+
+Prose 是一个编辑 Github 上内容的服务。你可以仅仅把它当作一个所见即所得的 Markdown 编辑器来使用，而最重要的是可以很方便的和 Jekyll 搭配写文章。
+
+1. 授权 Prose 访问 Github；
+
+![Prose]({{site.baseurl}}/_posts/1212013-03a743eb9d66c14b.jpg)
+
+
+2. 选择博客所在 repository； 
+
+
+3. 进入文章列表界面； 
+
+
+可以选择新建文章或者对现有文章进行编辑。右侧是历史记录。
+
+4. 文章编辑页面； 
+
+
+左侧是可视化编辑器，右侧是功能菜单，包括预览、添加 Meta 元信息、保存按钮等等。
+
+还有一些高级功能需要在 _config.yml 文件中进行配置，参考页面。总之功能强大。
+
+
+
+[Siteleaf](https://links.jianshu.com/go?to=https%3A%2F%2Fwww.siteleaf.com%2F)
+
+Siteleaf 是另一个专为 Jekyll 服务的工具，比较类似于普通博客程序的后台。可以很方便的创建文章、页面，上传文件，和自定义 Meta 信息，甚至，您可以直接在此创建网站然后发布到 Github。
+![Siteleaf]({{site.baseurl}}/_posts/1212013-e414a63581dfdab8.jpg)
+
+
+
+比 Prose 更为直观的编辑界面。和普通的博客编辑器已经不相上下了。不过呢，这是一个商业服务。免费套餐仅包括基本功能。套餐对比。
+
+[Jekyll Editor](https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2FSimpleyyt%2Fjekyll-editor)
+
+这个前面介绍过，是一个 Chrome 应用。功能也很完善。
+![Jekyll Editor]({{site.baseurl}}/_posts/1212013-82575147788a688a.jpg)
+
+
+
+[Jekyll Writer](https://links.jianshu.com/go?to=http%3A%2F%2Fjekyllwriter.com%2F)
+
+应该说，这是我心目中的编辑器。类似于 Windows Live Writer 的界面，以及完善的各种功能。跨平台，离线发布。然而可惜的是只支持 64 位系统，更郁闷的是这个软件需要邀请码，这还不是最郁闷的，因为尝试了各种方法联系不到作者，留言、邮件没有任何回复，实在是可惜了。
+![Jekyll Writer]({{site.baseurl}}/_posts/1212013-01fb977d3339b8c9.jpg)
+
+
+
+
+作者：chonghua
+链接：https://www.jianshu.com/p/989c72d4dd12
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
