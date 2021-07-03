@@ -1,7 +1,7 @@
 ---
 title: Gitlab如何解决提交时hook declined
 layout: post
-tags: git
+tags: [git]
 ---
 ## 1、配置git config
 找到Gitlab的个人信息设置页面，找到自己的name和email
